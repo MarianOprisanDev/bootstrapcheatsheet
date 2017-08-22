@@ -18,7 +18,331 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-inverse" style="margin-bottom: 0px; border-radius: 0;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1>Welcome to my Website</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis voluptatum natus obcaecati pariatur dignissimos at sapiente est voluptas corrupti aliquid!</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+    </div>
+
+      <div class="container">
+            <!-- Typography -->
+            <h1 class="page-header">Hello, world! <small>Secondary text</small></h1>
+            <p>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> Amet nemo autem deleniti minus atque? Omnis vero nulla ipsum debitis ea aliquid laborum corrupti vitae, hic vel eius odit tempore impedit!
+            </p>
+            <hr>
+            <!-- Alignment -->
+            <p class="text-left text-lowercase">Left aligned text.</p>
+            <p class="text-center text-uppercase">Center aligned text.</p>
+            <p class="text-right text-capitalize">Right aligned text.</p>
+            <p class="text-justify">Justified text.</p>
+            <p class="text-nowrap">No wrap text.</p>
+
+            <!-- Quick Floats -->
+            <div class="pull-right">Div floated to the right</div>
+            <div class="pull-left">Div floated to the left</div>
+            <!-- Clear Float -->
+            <div class="clearFix"></div>
+            <hr>
+            
+            <!-- BlockQuote(class blockquote and blockquote reverse) -->
+            <blockquote class="blockquote-reverse">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat provident odio obcaecati autem? Dolor placeat porro ut, incidunt esse quibusdam.</p>
+                <footer>Quote by <cite title="John Doe">John Doe</cite></footer>
+            </blockquote>
+
+            <!-- Lists -->
+            <ul class="list-unstyled">
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+                <li>Item Four</li>
+                <li>Item Five</li>
+            </ul>
+            <!-- Inline List Style(good for menu items) -->
+            <ul class="list-inline">    
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+                <li>Item Four</li>
+                <li>Item Five</li>
+            </ul>
+
+            <!-- CODE -->
+            <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+            <!-- Using the keyboard tag -->
+            <br>
+            Change directory with <kbd>cd</kbd>
+            <br>
+            To edit settings, press <kbd>ctrl</kbd> + <kbd>,</kbd>
+
+            <hr>
+
+            <!-- Contextual colors -->
+            <p class="text-primary">Hello world</p>
+            <p class="text-success">Hello world</p>
+            <p class="text-info">Hello world</p>
+            <p class="text-warning">Hello world</p>
+            <p class="text-danger">Hello world</p>
+            <p class="text-muted">Hello world</p>
+            <!-- Contextual colors for the background -->
+            <p class="bg-primary">Hello world</p>
+            <p class="bg-success">Hello world</p>
+            <p class="bg-info">Hello world</p>
+            <p class="bg-warning">Hello world</p>
+            <p class="bg-danger">Hello world</p>
+            <p class="bg-muted">Hello world</p>
+
+        </div>
+            <hr>
+
+        <div class="container">
+            <!-- Buttons -->
+            <button class="btn btn-default">Default</button>
+            <a href="#" class="btn btn-default" role="button">Link</a>
+            <input type="submit" class="btn btn-default" value="Submit">
+            <br><br>
+            <!-- Contextual buttons -->
+            <button class="btn btn-default">Default</button>
+            <button class="btn btn-primary">primary</button>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-info">Info</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-danger">Delete</button>
+            <button class="btn btn-link">Link</button>
+            <br><br>
+            <!-- Button sizes -->
+            <button class="btn btn-default btn-lg">Default  lg</button>
+            <button class="btn btn-default btn-sm">Default sm</button>
+            <button class="btn btn-default btn-xs">Default xs</button>
+
+            <!-- Forms -->
+            <div class="container">
+                <form>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea class="form-control" placeholder="Enter Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>        
+                    </div> 
+                    
+                    <div class="form-group">
+                        <label>Upload File</label>
+                        <input type="file">
+                        <p class="help-block">Only png and jpg file types allowed</p>
+                    </div>
+                    
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox">Agree
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+
+                <hr>
+                <!-- Inline Form -->
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Enter Email">
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <!-- Tables -->    
+                <table class="table table-striped table-bordered table-hover table-condensed">
+                        <tr>
+                          <th>Company</th>
+                          <th>Contact</th>
+                          <th>Country</th>
+                        </tr>
+                        <tr class="success">
+                          <td>Alfreds Futterkiste</td>
+                          <td>Maria Anders</td>
+                          <td>Germany</td>
+                        </tr>
+                        <tr>
+                          <td>Centro comercial Moctezuma</td>
+                          <td>Francisco Chang</td>
+                          <td>Mexico</td>
+                        </tr>
+                        <tr>
+                          <td>Ernst Handel</td>
+                          <td>Roland Mendel</td>
+                          <td>Austria</td>
+                        </tr>
+                        <tr class="info">
+                          <td>Island Trading</td>
+                          <td>Helen Bennett</td>
+                          <td>UK</td>
+                        </tr>
+                        <tr>
+                          <td>Laughing Bacchus Winecellars</td>
+                          <td>Yoshi Tannamuri</td>
+                          <td>Canada</td>
+                        </tr>
+                        <tr>
+                          <td>Magazzini Alimentari Riuniti</td>
+                          <td>Giovanni Rovelli</td>
+                          <td>Italy</td>
+                        </tr>
+                      </table>
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <ul class="list-group">
+                <li class="list-group-item">List item</li>
+                <li class="list-group-item">List item</li>
+                <li class="list-group-item">List item</li>
+                <li class="list-group-item">List item</li>
+                <li class="list-group-item">List item</li>
+                <li class="list-group-item">List item</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <!-- Panel -->
+            <div class="panel panel-default">
+                <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Panel content
+                    </div>
+                </div>
+                  
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Panel title</h3>
+              </div>
+              <div class="panel-body">
+                  Panel content
+              </div>
+              <div class="panel-footer">Panel footer</div>
+        </div>
+    
+
+        <div class="well">Hello World</div>
+        <div class="well well-lg">Hello World</div>
+        <div class="well well-sm">Hello World</div>
+
+        <hr>
+
+        <!-- Alerts -->
+        <div class="alert alert-success" role="alert">Success Alert</div>
+        <div class="alert alert-info" role="alert">Info Alert</div>
+        <div class="alert alert-warning" role="alert">Warning Alert</div>
+        <div class="alert alert-danger" role="alert">Danger Alert</div>
+        
+        <div class="alert alert-warning alert-dismissable" role="alert">
+            <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+            You can close this alert
+        </div>
+
+        <!-- Progress Bars -->
+        <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 50%">
+                50%
+            </div>
+        </div>
+        
+        <!-- Labels -->
+        <span class="label label-default">Default</span>
+        <h1>Hello <span class="label label-primary">Primary</span></h1>
+        <span class="label label-success">Success</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warning</span>
+        <span class="label label-danger">Danger</span>
+        
+        <hr>
+
+        <!-- Badges -->
+        <a href="#">Inbox <span class="badge">50</span></a>
+        <br><br>
+        <button class="btn btn-primary" type="button">
+            Messages <span class="badge">2</span>
+        </button>
+    
+    </div>    
+        
+        <hr>
+
+        <!-- Grids -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sapiente deleniti? Eum debitis itaque recusandae in natus? Accusamus omnis libero, animi officia assumenda quia! Consectetur doloribus sequi mollitia consequatur perferendis.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus rem molestias recusandae ex. Adipisci debitis ipsam aperiam, exercitationem rem voluptas ex ut minus pariatur odit doloremque, sit eum a!</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-10">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sapiente deleniti? Eum debitis itaque recusandae in natus? Accusamus omnis libero, animi officia assumenda quia! Consectetur doloribus sequi mollitia consequatur perferendis.</p>
+                </div>
+                <div class="col-md-2">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, in?</p>
+                </div>
+            </div>
+        </div>
+        <!-- Adding whitespace at the bottom of the page -->
+        <div style="height: 500px;"></div>
+      
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
